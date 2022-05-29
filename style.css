@@ -66,14 +66,6 @@ header {
     width: 200px;
 }
 
-.list-button {
-    display: none;
-}
-
-
-button:hover .list-button {
-    display: block;
-}
 
 .search-container {
     border: 1px solid black;
@@ -84,7 +76,7 @@ button:hover .list-button {
     outline: none;
     border: none;
     font-size: larger;
-    margin-right: 18rem;
+    margin-right: 12rem;
 }
 
 .option {
@@ -98,4 +90,46 @@ button:hover .list-button {
     color: white;
     border: none;
     cursor: pointer;
+}
+
+.ul-nav {
+    list-style-type: none;
+    justify-content: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid grey;
+}
+
+.ul-nav li:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.carosel-1 {
+    width: auto;
+    height: 300px;
+    background-color: rgb(233, 245, 119);
+}
+
+.carosel-1-part-1 {
+    padding: 1rem;
+    color: rgb(54, 79, 3);
+}
+
+.carosel-1-part-1 p {
+    padding: 1rem 0;
+}
+
+.carosel-1-part-1 button {
+    padding: .5rem 2rem;
+    font-size: large;
+    background-color: rgb(233, 245, 119);
+}
+
+.carosel-1-part-2 {
+    flex: auto;
+}
+
+.carosel-1-part-2 img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
